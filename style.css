@@ -1,0 +1,77 @@
+ 
+    @media (min-width: 972px) {
+        .p1 {
+            width: 1750px; height: 750px;
+        }
+        .p2 {
+            text-align: left; font-size: 30px; margin-left: 30px;
+        }
+        .p3 {
+            text-align: left; font-size: 30px; margin-left: 30px;
+        }
+        .p4 {
+            font-size: 50px; color: black;  text-align: center; margin-left: 700px;
+        }
+        .p5 {
+            width: 350px; height: 300px;
+        }
+        #grid  {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-rows: auto;
+            grid-template-columns: auto auto auto auto auto;
+        }
+        .p6 {
+             width: 450px; height: 200px; margin-right: 20px;
+        }
+        .p7 {
+            margin: 50px 500px; width: 500px; height: 800px;
+        }
+        
+    }
+    @media (max-width: 800px) {
+        .p1 {
+            width: 800px; height: 500px;
+        }
+        .p2 {
+            margin-left: 20px; font-size: 20px;
+        }
+        .p3 {
+               font-size: 20px; margin-left: 20px;
+        }
+        .p4 {
+            font-size: 30px; color: black; margin-left: 150px; text-align: center;
+        }
+        #grid1 {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns: auto;
+        }
+        .p5 {
+            width: 500px; height: 200px; margin-top: 10px;
+        }
+        .p6 {
+            width: 500px; height: 170px; margin-top: 10px;
+        }
+        .p7 {
+            margin: 30px 100px; width: 200px; height: 500px;
+        }
+    }
+    #mar {
+        margin: 50px 50px;
+    }
+    
+    
+    .box1 > div{
+         margin-top: 20px; 
+    }
+    @media (hover: hover) {
+        a:hover {
+            color: green; font-size: 40px;
+        }
+    }
+    .fo ~ td{
+        font-size: 20px;
+    }
+    
